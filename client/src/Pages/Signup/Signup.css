@@ -1,0 +1,128 @@
+.Signup {
+  background-color: white;
+  display: flex;
+  height: 100%;
+  margin: 64px 0 84px 0;
+  width: 100%;
+}
+
+#bg-signup {
+  width: 55vw;
+  height: 515px;
+}
+form {
+  padding: 10px 30px 30px 45px;
+  display: flex;
+  height: 100%;
+}
+form h3 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
+}
+
+.form-input {
+  width: 462px;
+  height: 45px;
+  border: 1px solid #555555;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  padding-left: 20px;
+  outline: none;
+}
+form input::placeholder {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  color: #666666;
+}
+select {
+  width: 10px;
+  height: 10px;
+  border: none;
+  display: none;
+}
+
+.phoneInput {
+  width: 225px;
+}
+#mob {
+  border: 1px solid #555555;
+  border-radius: 10px;
+  width: 462px;
+  height: 45px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  align-items: center;
+}
+#mob input {
+  width: 200px;
+  margin-left: 20px;
+  height: 100%;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  background-color: white;
+}
+#pwd {
+  display: flex;
+  width: 462px;
+  justify-content: space-between;
+}
+#pwd input {
+  width: 220px;
+  height: 45px;
+  border: 1px solid #555555;
+  border-radius: 10px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+#pwd input::placeholder {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#cb {
+  display: flex;
+  justify-content: flex-start;
+}
+#cb input {
+  cursor: pointer;
+}
+#cb label {
+  margin-left: 5px;
+}
+form button {
+  width: 155px;
+  height: 46px;
+  background: #044b82;
+  border-radius: 10px;
+  margin: 20px 50% 0 35%;
+  border: none;
+  color: white;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.signup-action {
+  width: 307px;
+  height: 24px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.signup-action p {
+  color: blue;
+}
+.linkStyle {
+  text-decoration: none;
+}
